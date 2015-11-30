@@ -1,0 +1,15 @@
+{	
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"enableEditorJS": true,
+    "custom_theme": true,
+    "description": "Slick makes a great first impression with oversized images and bold text. Slick can make any content or messaging look impressive. The navigation keeps visitor attention on the content, while keeping the rest of the site accessible with smooth new scrolling effects and a re-imagined new blog layout only displays just post titles on the blog index page.",
+    "features": [
+        "responsive",
+        "css-buttons",
+        "social-icons",
+        "full-width-header",
+        "navigation-collapsible",
+        "color-palettes"
+    ]
+}
