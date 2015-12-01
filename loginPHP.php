@@ -41,7 +41,7 @@ mysqli_query ( $link, $update ) or die ( 'Login time update failed : ' . mysqli_
 mysqli_close ( $link );
 
 // create session variable containing correct login status for use in other pages
-$_SESSION ['login'] == "yes";
+$_SESSION ['login'] = "yes";
 
 //echo $_SESSION['firstname'];
 // echo ", Last login ".$_SESSION['last'];

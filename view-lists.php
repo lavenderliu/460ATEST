@@ -273,5 +273,5 @@ var STYLE_PREFIX = 'wsite';
 		
 	</body>
 </html>
-<?php }  else header("Location: login.html");
+<?php }  else header("Location: login.php");
 ?>

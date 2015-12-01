@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sign Up / Login - WFM Grocery List</title>
+		<title>Sign Up - WFM Grocery List</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -98,8 +98,7 @@ var STYLE_PREFIX = 'wsite';
     <div class="nav-wrap">
       <div class="container">
         <div class="nav desktop-nav"><ul class="wsite-menu-default">
-		<li id="pg821307505618350677"
-			class="wsite-menu-item-wrap"
+<li class="wsite-menu-item-wrap"
 			>
 			<a href="index.html"
 				
@@ -120,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-				<li id="active"
-			class="wsite-menu-item-wrap"
+				<li id="active" 
+				class="wsite-menu-item-wrap"
 			>
 			<a href="newuser.php"
 				
@@ -131,8 +130,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg410698013925611979"
-			class="wsite-menu-item-wrap"
+		<li class="wsite-menu-item-wrap"
 			>
 			<a href="create-list.php"
 				
@@ -153,6 +151,15 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
+				<li class="wsite-menu-item-wrap">
+			<a href="nutrition.html"
+				
+				class="wsite-menu-item"
+				>
+				Healthy Tips
+			</a>
+			
+		</li>
 		<li id="pg792407370437616584"
 			class="wsite-menu-item-wrap"
 			>
@@ -161,6 +168,16 @@ var STYLE_PREFIX = 'wsite';
 				class="wsite-menu-item"
 				>
 				Feedback
+			</a>
+			
+		</li>
+			<li class="wsite-menu-item-wrap"
+			>
+			<a href="logout.php"
+				
+				class="wsite-menu-item"
+				>
+				Logout
 			</a>
 			
 		</li>
@@ -254,19 +271,19 @@ var STYLE_PREFIX = 'wsite';
   <div class="nav mobile-nav">
     <label class="hamburger"><span></span></label>
     <ul class="wsite-menu-default">
-    		<li id="pg821307505618350677"
-    			class="wsite-menu-item-wrap"
-    			>
-    			<a href="index.html"
-    				
-    				class="wsite-menu-item"
-    				>
-    				Home
-    			</a>
-    			
-    		</li>
-    		<li id="pg861492302795732802"
-			class="wsite-menu-item-wrap">
+    <li class="wsite-menu-item-wrap"
+			>
+			<a href="index.html"
+				
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg861492302795732802"
+			class="wsite-menu-item-wrap"
+			>
 			<a href="login.php"
 				
 				class="wsite-menu-item"
@@ -275,8 +292,8 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-				<li id="active"
-			class="wsite-menu-item-wrap"
+				<li id="active" 
+				class="wsite-menu-item-wrap"
 			>
 			<a href="newuser.php"
 				
@@ -286,39 +303,58 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-    		<li id="pg410698013925611979"
-    			class="wsite-menu-item-wrap"
-    			>
-    			<a href="create-list.php"
-    				
-    				class="wsite-menu-item"
-    				>
-    				Create List
-    			</a>
-    			
-    		</li>
-    		<li id="pg139660278626654661"
-    			class="wsite-menu-item-wrap"
-    			>
-    			<a href="view-lists.php"
-    				
-    				class="wsite-menu-item"
-    				>
-    				View Lists
-    			</a>
-    			
-    		</li>
-    		<li id="pg792407370437616584"
-    			class="wsite-menu-item-wrap"
-    			>
-    			<a href="feedback.html"
-    				
-    				class="wsite-menu-item"
-    				>
-    				Feedback
-    			</a>
-    			
-    		</li>
+		<li class="wsite-menu-item-wrap"
+			>
+			<a href="create-list.php"
+				
+				class="wsite-menu-item"
+				>
+				Create List
+			</a>
+			
+		</li>
+		<li id="pg139660278626654661"
+			class="wsite-menu-item-wrap"
+			>
+			<a href="view-lists.php"
+				
+				class="wsite-menu-item"
+				>
+				View Lists
+			</a>
+			
+		</li>
+				<li class="wsite-menu-item-wrap"
+			>
+			<a href="nutrition.html"
+				
+				class="wsite-menu-item"
+				>
+				Healthy Tips
+			</a>
+			
+		</li>
+		<li id="pg792407370437616584"
+			class="wsite-menu-item-wrap"
+			>
+			<a href="feedback.html"
+				
+				class="wsite-menu-item"
+				>
+				Feedback
+			</a>
+			
+		</li>
+			<li class="wsite-menu-item-wrap"
+			>
+			<a href="logout.php"
+				
+				class="wsite-menu-item"
+				>
+				Logout
+			</a>
+			
+		</li>
     </ul>
   </div>
 	

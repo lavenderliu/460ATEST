@@ -2,16 +2,17 @@
 session_start (); // establish session
 
 // get non-null values from form
-
+	
 	$required = array('firstname', 'lastname', 'email', 'pw');
-	$error = false;
+	$error = true;
 	foreach ($required as $field){
-		if (empty($_POST[$field])){
-			$error = true;
+		if (isset($_POST[$field]) && trim($_POST[$field]) !=''){
+			$error = false;
 		}
 	}
+	
 	if ($error){
-		header ('Location: newuser.php');
+		header ('Location: newuser2.php');
 	}
 	else{
 		$firstname= $_POST["firstname"];

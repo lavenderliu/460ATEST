@@ -1,6 +1,4 @@
 <?php 
-session_start();  //check login
-if ($_SESSION['login']=="yes") {  
 
 //get values from form
 $listname = $_POST["listname"];
@@ -49,6 +47,5 @@ while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 	echo "\t</tr>\n";
 }
 echo "</table>\n";
-//if not logged in, go back to login page
-}  else header("Location: login.html");
+
 ?>
