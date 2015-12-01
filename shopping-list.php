@@ -2,11 +2,10 @@
 session_start();  //check login
 if ($_SESSION['login']=="yes") {?>
 
-
-
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>View Lists - WFM Grocery List</title>
+		<title>Create List - WFM Grocery List</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -63,7 +62,7 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"821307505618350677","title":"Home","url":"index.html","target":""},{"id":"861492302795732802","title":"Sign Up \/ Login","url":"sign-up--login.html","target":""},{"id":"410698013925611979","title":"Create List","url":"create-list.html","target":""},{"id":"139660278626654661","title":"View Lists","url":"view-lists.html","target":""},{"id":"792407370437616584","title":"Feedback","url":"feedback.html","target":""}],
-				"139660278626654661",
+				"410698013925611979",
 				'',
 				'active',
 				false,
@@ -82,7 +81,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="short-header-page  wsite-page-view-lists wsite-theme-light"><div class="wrapper">
+	<body class="short-header-page  wsite-page-create-list wsite-theme-light"><div class="wrapper">
 	  <div class="header-wrap wsite-background wsite-custom-background">
 	    <div id="topBar" class="topbar">
 	       <label class="hamburger"><span></span></label>
@@ -142,8 +141,8 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg410698013925611979"
-			class="wsite-menu-item-wrap"
+		
+		<li class="wsite-menu-item-wrap"
 			>
 			<a href="create-list.php"
 				
@@ -153,7 +152,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="active"
+		<li id="pg139660278626654661"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="view-lists.php"
@@ -183,6 +182,51 @@ var STYLE_PREFIX = 'wsite';
 		<div class="main-wrap">
 	    <div class="container">
 	 			<div class="content-wrap"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
+	 			<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
+					
+						
+
+<div>
+<form id="returnlist">
+<div id="675811897438593236-form-parent" class="wsite-form-container" style="margin-top:10px;">
+  <ul class="formlist" id="675811897438593236-form-list">
+ <!--    <h2 class="wsite-content-title" style="text-align:left;"> </h2>  -->
+
+<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+
+				<?php include 'goshopping.php';?>	
+				<!-- <input id="item1" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="item_1" />  -->	
+				</div>
+		
+				</div></div>
+  </ul>
+</div>
+<div style="display:none; visibility:hidden;">
+  <input type="text" name="wsite_subject" />
+</div>
+<div class="paragraph" style="text-align:left;"><font size="3">If you do not see some of your items here then we might not have them recorded in our database or on our shelves yet. <br />Please send us a message through our Feedback page and we will have it added to our list. <br />Sorry for the inconvenience!</font></div>
+<!-- <div style="text-align:left; margin-top:10px; margin-bottom:10px;">
+  <input type="hidden" name="form_version" value="2" />
+  <input type="hidden" name="wsite_approved" id="wsite-approved" value="approved" />
+  <input type="hidden" name="ucfid" value="675811897438593236" />
+  <input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' /><a class='wsite-button' onclick="document.getElementById('createlist').submit()"><span class='wsite-button-inner'>Go Shopping</span></a>
+</div>  -->
+</form>
+
+
+</div>
+
+
+					
+				</td>							</tr>
+		</tbody>
+	</table>
+</div></div></div>
+	 			
 </div>
 </div>
 	  	</div><!-- end container -->
@@ -209,7 +253,7 @@ var STYLE_PREFIX = 'wsite';
     			</a>
     			
     		</li>
-    	<li id="pg861492302795732802"
+ 	<li id="pg861492302795732802"
 			class="wsite-menu-item-wrap"
 			>
 			<a href="login.php"
@@ -230,8 +274,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-    		<li id="pg410698013925611979"
-    			class="wsite-menu-item-wrap"
+		  		<li class="wsite-menu-item-wrap"
     			>
     			<a href="create-list.php"
     				
@@ -241,7 +284,7 @@ var STYLE_PREFIX = 'wsite';
     			</a>
     			
     		</li>
-    		<li id="active"
+    		<li id="pg139660278626654661"
     			class="wsite-menu-item-wrap"
     			>
     			<a href="view-lists.php"

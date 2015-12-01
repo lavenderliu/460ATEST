@@ -1,9 +1,7 @@
-<?php
+<?php 
 session_start();  //check login
-if ($_SESSION['user']=="yes") {
-	
-}
-?>
+if ($_SESSION['login']=="yes") {?>
+
 
 
 <html>
@@ -195,9 +193,10 @@ var STYLE_PREFIX = 'wsite';
 						
 
 <div>
-<form action="goshopping.php" method="POST" id="createlist">
+<form action="shopping-list.php" method="POST" id="createlist">
 <div id="675811897438593236-form-parent" class="wsite-form-container" style="margin-top:10px;">
   <ul class="formlist" id="675811897438593236-form-list">
+    <h2 class="wsite-content-title" style="text-align:left;"><?php echo " Welcome " .$_SESSION['firstname'] ; ?> </h2>
     <h2 class="wsite-content-title" style="text-align:left;">Build your Grocery List</h2>
 
 <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
@@ -342,3 +341,5 @@ var STYLE_PREFIX = 'wsite';
 		
 	</body>
 </html>
+<?php }  else header("Location: login.html");
+?>

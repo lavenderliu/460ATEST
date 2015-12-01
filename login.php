@@ -178,7 +178,7 @@ var STYLE_PREFIX = 'wsite';
 						
 
 <div>
-<form action="view-lists.php" method="POST" id="form-675811897438593236">
+<form action="loginPHP.php" method="POST" id="form-675811897438593236">
 <div id="675811897438593236-form-parent" class="wsite-form-container" style="margin-top:10px;">
   <ul class="formlist" id="675811897438593236-form-list">
     <h2 class="wsite-content-title" style="text-align:left;">Login</h2>
