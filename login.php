@@ -284,17 +284,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg139660278626654661"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="view-lists.php"
-				
-				class="wsite-menu-item"
-				>
-				View Lists
-			</a>
-			
-		</li>
+
 				<li class="wsite-menu-item-wrap"
 			>
 			<a href="nutrition.html"
