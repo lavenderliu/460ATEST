@@ -6,7 +6,6 @@ $msgemail = $_POST ['msgemail'];
 $msg = $_POST ['msg'];
 $who= $namefirst . ' ' .$namelast;
 $formcontent= "From: $who at $msgemail <br/>\n Message: $msg";
-$sendto= "liu.lisaf@gmail.com";
 $subject= "msg from 460 site";
 $mailheader = "From: $msgemail \r\n";
 
