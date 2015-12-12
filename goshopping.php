@@ -24,7 +24,7 @@ while ($more){
 	$i++;
 }
 
-$query = "SELECT itemname AS Item, aislenumber AS Aisle, price AS Price FROM item WHERE itemname IN('$itemname')";
+$query = "SELECT itemname AS Item, aislenumber AS Aisle, price AS Price, nutritioncode AS Nutrition FROM item WHERE itemname IN('$itemname')";
 
 $result = mysqli_query ( $link, $query ) or die ( 'Query failed: ' . mysqli_error ($link) );
 $rows = mysqli_num_rows ( $result );

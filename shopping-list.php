@@ -87,7 +87,7 @@ var STYLE_PREFIX = 'wsite';
 	       <label class="hamburger"><span></span></label>
 	       <div class="logo"><span class="wsite-logo">
 
-	<a href="">
+	<a href="index.html">
 	
 	<span id="wsite-title">WFM Grocery List</span>
 	
@@ -151,17 +151,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg139660278626654661"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="view-lists.php"
-				
-				class="wsite-menu-item"
-				>
-				View Lists
-			</a>
-			
-		</li>
+
 				<li 
 				class="wsite-menu-item-wrap"
 			>
@@ -304,17 +294,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg139660278626654661"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="view-lists.php"
-				
-				class="wsite-menu-item"
-				>
-				View Lists
-			</a>
-			
-		</li>
+
 				<li 
 				class="wsite-menu-item-wrap"
 			>

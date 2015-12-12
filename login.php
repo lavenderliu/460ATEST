@@ -84,7 +84,7 @@ var STYLE_PREFIX = 'wsite';
             <label class="hamburger"><span></span></label>
             <div class="logo"><span class="wsite-logo">
 
-	<a href="">
+<a href="index.html">
 	
 	<span id="wsite-title">WFM Grocery List</span>
 	
@@ -139,17 +139,7 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		<li id="pg139660278626654661"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="view-lists.php"
-				
-				class="wsite-menu-item"
-				>
-				View Lists
-			</a>
-			
-		</li>
+
 				<li class="wsite-menu-item-wrap"
 			>
 			<a href="nutrition.html"
@@ -214,7 +204,7 @@ var STYLE_PREFIX = 'wsite';
 <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
 				<label class="wsite-form-label" for="password">Password <span class="form-required">*</span></label>
 				<div class="wsite-form-input-container">
-					<input id="password" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="pw" />
+					<input id="password" class="wsite-form-input wsite-input wsite-input-width-370px" type="password" name="pw" />
 				</div>
 				</div></div>
   </ul>
