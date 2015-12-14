@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Login - WFM Grocery List</title>
+		<title>WPassword - WFM Grocery List</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -175,58 +175,42 @@ var STYLE_PREFIX = 'wsite';
 </ul>
 </div>
       </div>
-    </div>  
+    </div>   
 
     <div class="main-wrap">
       <div class="container">
         <div class="content-wrap"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
+<div class="paragraph" style="text-align:left;"><span id="selectionBoundary_1450127072078_6037025842815638">&#65279;</span><span id="selectionBoundary_1450127026434_9847024157643318"></span>You did not enter the password we had for your account. Please retry your password or update it through the sign up page.</div>
+
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:17.479674796748%; padding:0 15px;">
 					
 						
 
-<div>
-<form action="loginPHP.php" method="POST" id="form-675811897438593236">
-<div id="675811897438593236-form-parent" class="wsite-form-container" style="margin-top:10px;">
-  <ul class="formlist" id="675811897438593236-form-list">
-    <h2 class="wsite-content-title" style="text-align:left;">Login</h2>
-
-<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label" for="username">Email <span class="form-required">*</span></label>
-				<div class="wsite-form-input-container">
-					<input id="username" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="email" />
-				</div>
-				
-			</div></div>
-
-<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label" for="password">Password <span class="form-required">*</span></label>
-				<div class="wsite-form-input-container">
-					<input id="password" class="wsite-form-input wsite-input wsite-input-width-370px" type="password" name="pw" />
-				</div>
-				</div></div>
-  </ul>
-</div>
-<div style="display:none; visibility:hidden;">
-  <input type="text" name="wsite_subject" />
-</div>
-<div style="text-align:left; margin-top:10px; margin-bottom:10px;">
-  <input type="hidden" name="form_version" value="2" />
-  <input type="hidden" name="wsite_approved" id="wsite-approved" value="approved" />
-  <input type="hidden" name="ucfid" value="675811897438593236" />
-  <input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' /><a class='wsite-button' onclick="document.getElementById('form-675811897438593236').submit()"><span class='wsite-button-inner'>Submit</span></a>
-</div>
-</form>
-
-
-</div>
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="http://frodo.bentley.edu/460atest/login.php" >
+<span class="wsite-button-inner">Login</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
 
 
 					
-				</td>							</tr>
+				</td>				<td class="wsite-multicol-col" style="width:82.520325203252%; padding:0 15px;">
+					
+						
+
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="http://frodo.bentley.edu/460atest/newuser.php" >
+<span class="wsite-button-inner">Sign up</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
 		</tbody>
 	</table>
 </div></div></div></div>
@@ -234,7 +218,7 @@ var STYLE_PREFIX = 'wsite';
       </div><!-- end container -->
     </div>
 
-    <div class="footer-wrap">
+<div class="footer-wrap">
       <div class="container">
         <div class="footer">2015 | CS460 Team A</div>
       </div><!-- end container -->
@@ -327,4 +311,3 @@ var STYLE_PREFIX = 'wsite';
 		
 	</body>
 </html>
-

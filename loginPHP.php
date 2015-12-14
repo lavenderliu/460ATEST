@@ -22,9 +22,9 @@ if ($rows < 1){
 // get login table record for userid
 $line = mysqli_fetch_array ( $result, MYSQL_ASSOC );
 
-// check password. If not correct, go to login page and try again
+// check password. If not correct, go to wrong password page
 if ($pw != $line ['pw']){
-	header ( "Location: login.php" );
+	header ( "Location: wpassword.php" );
 	exit;} else{
 	
 	// save login record as session data, data persists over entire session
