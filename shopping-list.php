@@ -230,9 +230,15 @@ var STYLE_PREFIX = 'wsite';
 
 </div>
 
+</td>				<td class="wsite-multicol-col" style="width:33.739837398374%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><br /><font color="#2a2a2a">Nutrition Legend&nbsp;</font><br /><font color="#81c94c">1</font><font color="#2a2a2a">: This item is rather healthy! Feel free to indulge.</font><br /><font color="#e0bf5c">2</font><font color="#2a2a2a">: This item is reasonably healthy. Eat moderately.</font><br /><span><span><font color="#c23b3b">3</font>: This item may not be the best choice. Eat sparingly. </span></span></div>
+
 
 					
-				</td>							</tr>
+				</td>			</tr>
 		</tbody>
 	</table>
 </div></div></div>
