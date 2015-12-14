@@ -15,20 +15,23 @@ $result = mysqli_query ( $link, $query ) or die ( 'Query failed: ' . mysqli_erro
 $rows = mysqli_num_rows ( $result );
 
 // if userid not in login table, go to login page and try again
-if ($rows < 1)
+if ($rows < 1){
 	header ( "Location: newuser.php" );
+	exit;} else {
 
 // get login table record for userid
 $line = mysqli_fetch_array ( $result, MYSQL_ASSOC );
 
 // check password. If not correct, go to login page and try again
-if ($pw != $line ['pw'])
+if ($pw != $line ['pw']){
 	header ( "Location: login.php" );
+	exit;} else{
 	
 	// save login record as session data, data persists over entire session
 $_SESSION ['userid'] = $line ['userid'];
 $_SESSION ['last'] = $line ['lastlogin'];
-$_SESSION['firstname'] = $line ['firstname'];
+$_SESSION['firstname'] = $line ['firstname'];}
+	}
 
 // Free resultset
 mysqli_free_result ( $result );
