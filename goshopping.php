@@ -5,7 +5,7 @@ $listname = $_POST["listname"];
 $itemname= "";
 $more = TRUE;
 $i=1;
- 
+
 
 // Connect to MySQL, select database
 $link = mysqli_connect ( 'frodo.bentley.edu', 'cs460teama', 'Vwg*33k', 'cs460teama' )
@@ -41,8 +41,8 @@ echo "</tr>";
 
 while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 	echo "\t<tr>\n";
-	foreach ($line as $col_value) { 
-		echo "\t\t<td><input id=\"lines\" class=\"wsite-form-input wsite-input wsite-input-width-100px\" type=\"text\" value=\"$col_value\"readonly /></td>\n" ;
+	foreach ($line as $col_value) {
+		echo "\t\t<td><input id=\"lines\" class=\"wsite-form-input\" style=\"width: 150px !important;\" type=\"text\" value=\"$col_value\"readonly /></td>\n" ;
 	}
 	echo "\t</tr>\n";
 }
