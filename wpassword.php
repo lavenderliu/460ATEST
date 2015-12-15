@@ -99,80 +99,27 @@ var STYLE_PREFIX = 'wsite';
     <div class="nav-wrap">
       <div class="container">
         <div class="nav desktop-nav"><ul class="wsite-menu-default">
-		<li class="wsite-menu-item-wrap"
-			>
-			<a href="index.html"
-				
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="active"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="login.php"
-				
-				class="wsite-menu-item"
-				>
-				Login
-			</a>
-			
-		</li>
-				<li class="wsite-menu-item-wrap"
-			>
-			<a href="newuser.php"
-				
-				class="wsite-menu-item"
-				>
-				Sign Up
-			</a>
-			
-		</li>
-		<li class="wsite-menu-item-wrap"
-			>
-			<a href="create-list.php"
-				
-				class="wsite-menu-item"
-				>
-				Create List
-			</a>
-			
-		</li>
+						<li class="wsite-menu-item-wrap"><a href="index.html"
+							class="wsite-menu-item"> Home </a>
+						</li>
+						<li id="active" class="wsite-menu-item-wrap"><a href="login.php"
+							class="wsite-menu-item"> Login </a>
+						</li>
+						<li class="wsite-menu-item-wrap"><a href="newuser.php"
+							class="wsite-menu-item"> Sign Up </a>
+						</li>
+						<li class="wsite-menu-item-wrap"><a href="create-list.php"
+							class="wsite-menu-item"> Create List </a></li>
 
-				<li class="wsite-menu-item-wrap"
-			>
-			<a href="nutrition.html"
-				
-				class="wsite-menu-item"
-				>
-				Healthy Tips
-			</a>
-			
-		</li>
-		<li id="pg792407370437616584"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="feedback.html"
-				
-				class="wsite-menu-item"
-				>
-				Feedback
-			</a>
-			
-		</li>
-			<li class="wsite-menu-item-wrap"
-			>
-			<a href="logout.php"
-				
-				class="wsite-menu-item"
-				>
-				Logout
-			</a>
-			
-		</li>
-</ul>
+						<li class="wsite-menu-item-wrap"><a href="nutrition.html"
+							class="wsite-menu-item"> Healthy Tips </a></li>
+						<li id="pg792407370437616584" class="wsite-menu-item-wrap"><a
+							href="feedback.html" class="wsite-menu-item"> Feedback </a>
+						</li>
+						<li class="wsite-menu-item-wrap"><a href="logout.php"
+							class="wsite-menu-item"> Logout </a>
+						</li>
+					</ul>
 </div>
       </div>
     </div>   
@@ -191,7 +138,7 @@ var STYLE_PREFIX = 'wsite';
 						
 
 <div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-small wsite-button-normal" href="http://frodo.bentley.edu/460atest/login.php" >
+<a class="wsite-button wsite-button-small wsite-button-normal" href="login.php" >
 <span class="wsite-button-inner">Login</span>
 </a>
 <div style="height: 10px; overflow: hidden;"></div></div>
@@ -203,7 +150,7 @@ var STYLE_PREFIX = 'wsite';
 						
 
 <div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-small wsite-button-normal" href="http://frodo.bentley.edu/460atest/newuser.php" >
+<a class="wsite-button wsite-button-small wsite-button-normal" href="newuser.php" >
 <span class="wsite-button-inner">Sign up</span>
 </a>
 <div style="height: 10px; overflow: hidden;"></div></div>
@@ -228,80 +175,27 @@ var STYLE_PREFIX = 'wsite';
   <div class="nav mobile-nav">
     <label class="hamburger"><span></span></label>
     <ul class="wsite-menu-default">
-    	<li class="wsite-menu-item-wrap"
-			>
-			<a href="index.html"
-				
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="active"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="login.php"
-				
-				class="wsite-menu-item"
-				>
-				Login
-			</a>
-			
-		</li>
-				<li class="wsite-menu-item-wrap"
-			>
-			<a href="newuser.php"
-				
-				class="wsite-menu-item"
-				>
-				Sign Up
-			</a>
-			
-		</li>
-		<li class="wsite-menu-item-wrap"
-			>
-			<a href="create-list.php"
-				
-				class="wsite-menu-item"
-				>
-				Create List
-			</a>
-			
-		</li>
+			<li class="wsite-menu-item-wrap"><a href="index.html"
+				class="wsite-menu-item"> Home </a>
+			</li>
+			<li id="active" class="wsite-menu-item-wrap"><a href="login.php"
+				class="wsite-menu-item"> Login </a>
+			</li>
+			<li class="wsite-menu-item-wrap"><a href="newuser.php"
+				class="wsite-menu-item"> Sign Up </a>
+			</li>
+			<li class="wsite-menu-item-wrap"><a href="create-list.php"
+				class="wsite-menu-item"> Create List </a></li>
 
-				<li class="wsite-menu-item-wrap"
-			>
-			<a href="nutrition.html"
-				
-				class="wsite-menu-item"
-				>
-				Healthy Tips
-			</a>
-			
-		</li>
-		<li id="pg792407370437616584"
-			class="wsite-menu-item-wrap"
-			>
-			<a href="feedback.html"
-				
-				class="wsite-menu-item"
-				>
-				Feedback
-			</a>
-			
-		</li>
-			<li class="wsite-menu-item-wrap"
-			>
-			<a href="logout.php"
-				
-				class="wsite-menu-item"
-				>
-				Logout
-			</a>
-			
-		</li>
-    </ul>
+			<li class="wsite-menu-item-wrap"><a href="nutrition.html"
+				class="wsite-menu-item"> Healthy Tips </a></li>
+			<li id="pg792407370437616584" class="wsite-menu-item-wrap"><a
+				href="feedback.html" class="wsite-menu-item"> Feedback </a>
+			</li>
+			<li class="wsite-menu-item-wrap"><a href="logout.php"
+				class="wsite-menu-item"> Logout </a>
+			</li>
+		</ul>
   </div>
 	
 	<script type="text/javascript" src="files/theme/plugins.js"></script>
